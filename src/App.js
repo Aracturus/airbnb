@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Imageoverlap from './Components/Imageoverlap';
+import Mission from './Components/Mission';
+import Benefit from './Components/Benefit';
+import Tour from './Components/Tour';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+    <Imageoverlap />
+    <Tour/>
+
+    <Mission />
+
+    <Benefit />
+      
+    </>
   );
 }
 

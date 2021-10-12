@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+    color: white;
+}
+/* .hero{
+    margin-bottom: 6rem;
+
+} */
+.overlap-img1{
+    position: absolute;
+    left: 5%;
+    top: 8rem;
+    z-index: 2;
+    background:gray;
+    /* color: black; */
+    width: 80%;
+    height: 450px;
+    opacity: 0.7;
+
+
+}
+.overlap-img2{
+    position: absolute;
+    left: 20%;
+    top: 3rem;
+    z-index: 2;
+    width: 70%;
+    height: 500px;
+
+
+}
+.overlap-img3{
+    position: absolute;
+    left: 8%;
+    top: 6rem;
+    z-index: 2;
+    background:white;
+    color: black;
+    width: 480px;
+    height: 380px;
+
+}
+.img2-head{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+
+}
+.img2-heading{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+.btn-overlap{
+    outline: none;
+    font-weight: 700;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 2rem;
+    margin-left: 18%;
+    margin-top: 1rem;
+    color: white;
+
+
+}
+.overlap-whitebox{
+    padding: 2rem;
+
+}
+@media screen and (max-width:480px){
+  .overlape-size-container{
+      width: 100%;
+      height: 50vh;
+
+  }
+    .overlap-img1{
+        position: absolute;
+        left: 5%;
+        top: 8rem;
+        z-index: 1;
+        background:gray;
+        width: 85%;
+        height: 200px;
+        opacity: 0.7;
+    
+    
+    }
+.overlap-img2{
+        position: absolute;
+        left: 20%;
+        top: 3rem;
+        z-index: 2;
+        width: 75%;
+        height: 230px;
+    
+    
+    }
+
+    .overlap-img3{
+        /* display: none; */
+        position: absolute;
+        left: 8%;
+        top: 4.5rem;
+        z-index: 2;
+        background:white;
+        color: black;
+        width: 60%;
+        height: 180px;
+    
+    }
+    .img2-head{
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 0.9rem;
+    
+    }
+    .img2-heading{
+        margin-left: 1rem;
+        margin-top: 0;
+        font-size: 1.1rem;
+        font-weight: 700;
+    
+    }
+    .btn-overlap{
+        outline: none;
+        font-weight: 700;
+        background-color: red;
+        border: none;
+        border-radius: 5px;
+        padding: 4px 1rem;
+        margin-left: 18%;
+        margin-top: 1rem;
+        color: white;
+    
+    
+    }
+}

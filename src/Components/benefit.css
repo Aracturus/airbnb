@@ -1,0 +1,59 @@
+
+.bene-container{
+    margin: 3rem 20%;
+}
+.bene-head{
+    padding: 2rem 0px;
+}
+
+.bene-heading{
+    /* padding: 2rem 0px; */
+    font-size: 24px;
+    font-weight: 700;
+    padding: 2px;
+    color: #ff0000;
+}
+.bene-para{
+    padding:  20px ;
+    font-size: 18px;
+}
+.photo-circle{
+    border-radius: 50%;
+    width: 100px;
+    border: 2px solid #ff0000;
+}
+.tile{
+    padding:2rem;
+    text-align: center;
+    color: gray;
+}
+.benefit-image{
+    width: 100%;
+}
+.is-parent{
+    display: grid !important;
+    grid-template-columns: auto auto auto ;
+}
+@media screen and (max-width:480px){
+
+    .bene-container{
+        margin: 0 10px;
+        padding-top:2rem ;
+    }
+    .bene-head{
+        padding: 2rem 0px;
+        font-size: 12px;
+    }
+    .is-parent{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .tile{
+        padding:8px 2px;
+        text-align: center;
+        color: gray;
+    }
+    
+    
+    
+    }

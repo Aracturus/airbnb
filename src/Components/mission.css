@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color: white;
+}
+.miss-container{
+    margin: 3rem 20%;
+    padding-top:2rem ;
+}
+.miss-head{
+    padding: 2rem 0px;
+}
+
+.miss-heading{
+    /* padding: 2rem 0px; */
+    font-size: 24px;
+    font-weight: 700;
+    padding: 2px;
+    color: #ff0000;
+}
+.miss-para{
+    padding:  20px ;
+    font-size: 18px;
+}
+@media screen and (max-width:480px){
+
+.miss-container{
+    margin: 0 10px;
+    padding-top:2rem ;
+}
+.miss-head{
+    padding: 2rem 0px;
+    font-size: 10px;
+}
+
+
+
+}
