@@ -3,7 +3,6 @@ import './App.css';
 import Imageoverlap from './Components/Imageoverlap';
 import Mission from './Components/Mission';
 import Benefit from './Components/Benefit';
-import Tour from './Components/Tour';
 
 
 function App() {
@@ -11,7 +10,6 @@ function App() {
     <>
 
     <Imageoverlap />
-    <Tour/>
 
     <Mission />
 
