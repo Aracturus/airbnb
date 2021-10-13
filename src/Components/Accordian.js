@@ -45,7 +45,7 @@ export default function Accordian() {
                 <div>
                     <div className='Wrap' onClick={() => toggle(index)} key={index}>
                     <h1 class="accordin-que">{item.question}</h1>
-                    <span>{clicked === index ? '-' : '+'}</span>
+                    <span>{clicked === index ? <i className="fas fa-minus"></i> : <i className="fas fa-plus"></i>}</span>
                     </div>
                     {clicked === index ? (
                     <div div className='Dropdown'>
